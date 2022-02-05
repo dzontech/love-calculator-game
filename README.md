@@ -1,2 +1,2 @@
 # Love-Calculator
-LoveCalculator game
+LoveCalculator Game
