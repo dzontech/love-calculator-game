@@ -1,0 +1,78 @@
+:root {
+    --color-text-result: yellow;
+    --color-background-result: black;
+}
+@media only screen and (max-width: 768px){
+    :root {
+        --color-text-result: red;
+    --color-background-result: green;
+    }
+}
+
+body{
+    background-image: url(love.jpg);
+    background-size: cover;
+    overflow-x: hidden;
+}
+.muski{
+    
+    position: relative;
+    left: 26rem;
+    top: 25rem;
+}
+.zenski{
+    position: relative;
+    left:47rem;
+    top: 25.2rem;
+  
+}
+input[type=text] {
+    padding: 12px;
+    border: solid royalblue 3px;
+    background-color: cornflowerblue;
+    font-family: "Love Ya Like A Sister" ;
+}
+.rezultat{
+    position: relative;
+    height: 70px;
+    width: 150px;
+    left: 44.5rem;
+    top:21rem;
+    color: var( --color-text-result);
+    background-color: var(--color-background-result);
+    font-family: cursive;
+    text-align: center;
+    font-size: 50px;
+}
+.poruka {
+    position: relative;
+    left:27rem;
+    bottom: 20rem;
+    height: 50px;
+    width: 700px;
+    font-size: 70px;
+    font-family: "Love Ya Like A Sister" ;
+    color: black;
+    text-align: center;
+}
+.srce {
+    height: 150px;
+    width: 300px;
+    position: relative;
+    top:20rem;
+    left:30rem;
+    
+}
+.srce2 {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    bottom:7rem;
+    right:10rem;
+}
+.srce3 {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left:45rem;
+}
