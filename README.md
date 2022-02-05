@@ -1,2 +1,2 @@
-# love-calculator
-LoveCalculator game - JS learning
+# love-calculator-game
+Love Calculator Game
